@@ -9,8 +9,9 @@
     <script src="https://kit.fontawesome.com/44a52db869.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <?php  include_once 'views/header.php'; ?>
-    <h1>Hola</h1>
+    <?php
+    include_once 'views/header.php';
+    ?>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

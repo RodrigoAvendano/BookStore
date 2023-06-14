@@ -18,4 +18,12 @@
             </div>
         </div>
     </div>
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#featured">Productos</a>
+            <a href="#reviews">Opiniones</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </div>
 </header>
