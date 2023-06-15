@@ -139,6 +139,29 @@ body {
     height: 300rem;
 }
 
+.bottom-navbar {
+    background: var(--green);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.bottom-navbar a {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.bottom-navbar a:hover {
+    background: var(--dark-green);
+}
+
+
+
 @media (max-width: 991px) {
 
     html {
@@ -151,6 +174,14 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    html {
+        scroll-padding-top: 0;
+    }
+
+    body {
+        padding-bottom: 6rem;
+    }
 
     .header .header-2 {
         display: none;
@@ -175,6 +206,10 @@ body {
 
     .header .header-1 .search-form.active {
         top: 115%;
+    }
+
+    .bottom-navbar {
+        display:block;
     }
 
 }
