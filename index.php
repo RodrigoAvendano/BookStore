@@ -16,6 +16,10 @@
     <?php
     include_once 'views/footer.php';
      ?>
+
+     <?php
+    include_once 'views/login.php';
+     ?>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
