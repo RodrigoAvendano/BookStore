@@ -42,6 +42,10 @@ html::-webkit-scrollbar-thumb {
     background: var(--dark-gray);
 }
 
+section {
+    padding: 5rem 9%;
+}
+
 .btn {
     background: var(--green);
     border-radius: .5rem;
@@ -261,12 +265,62 @@ body {
     top: 1.5rem;
 }
 
+.home {
+    background: url('../images/banner-bg.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.home .row {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home .row .content {
+    flex: 1 1 42rem;
+}
+
+.home .row .books-slider {
+    flex: 1 1 42rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.home .row .books-slider a img {
+    height: 25rem;
+}
+
+.home .row .books-slider a:hover img {
+    transform: scale(.9);
+}
+
+.home .row .books-slider .stand {
+    width: 100%;
+    margin-top: -4rem;
+}
+
+.home .row .content h3 {
+    color: var(--black);
+    font-size: 4.5rem;
+}
+
+.home .row .content p {
+    color: var(--light-gray);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
 
 @media (max-width: 991px) {
 
     html {
         font-size: 55%;
+    }
+
+    section {
+        padding: 3rem 2rem;
     }
 
     .header .header-1 {
@@ -313,6 +367,14 @@ body {
 
     .header .header-1 .search-form.active {
         top: 115%;
+    }
+
+    .home .row .content {
+        text-align: center;
+    }
+
+    .home .row .content h3{
+        font-size: 3.5rem;
     }
 
     .bottom-navbar {
