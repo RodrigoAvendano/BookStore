@@ -18,6 +18,8 @@
     include_once 'views/footer.php';
      
     include_once 'views/login.php';
+
+    include_once 'views/icons.php';
      ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
