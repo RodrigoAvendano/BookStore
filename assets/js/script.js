@@ -30,7 +30,7 @@ document.querySelector('#close-login-btn').onclick = () =>{
     loginForm.classList.remove('active');
 };
 
-var swiper = new Swiper(".books-slider", {
+let swiper = new Swiper(".books-slider", {
     loop: true,
     centeredSlides: true,
     autoplay: {
@@ -48,4 +48,33 @@ var swiper = new Swiper(".books-slider", {
         slidesPerView: 3,
       },
     },
-  });
+});
+
+let swiperFeatured = new Swiper(".featured-slider", {
+    spaceBetween: 10,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      450: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+    },
+});
+
