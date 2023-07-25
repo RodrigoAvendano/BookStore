@@ -22,6 +22,8 @@
     include_once 'views/icons.php';
 
     include_once 'views/featured.php';
+
+    include_once 'views/newsletter.php';
      ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
