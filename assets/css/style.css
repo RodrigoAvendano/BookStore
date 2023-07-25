@@ -83,6 +83,7 @@ section {
     font-weight: 500;
     margin: 1rem 0;
     padding: .9rem;
+    text-transform: capitalize;
 }
 
 .btn:hover {
@@ -409,12 +410,13 @@ body {
 }
 
 .arrivals .arrivals-slider .box .content h3 {
-    color: var(--black);
+    color: var(--dark-gray);
     font-size: 2rem;
+    text-transform: capitalize;
 }
 
 .arrivals .arrivals-slider .box .content .price {
-    color: var(--black);
+    color: var(--dark-gray);
     font-size: 2rem;
     padding-bottom: .5rem;
 }
@@ -429,6 +431,43 @@ body {
 .arrivals .arrivals-slider .box .content .stars i {
     color: var(--green);
     font-size: 1.5rem;
+}
+
+.deal {
+    align-items: center;
+    background: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.deal .content {
+    flex: 1 1 42rem;
+}
+
+.deal .image img{
+    width: 100%;
+    height: 50rem;
+}
+
+.deal .content h3 {
+    color: var(--green);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+.deal .content h1 {
+    color: var(--dark-gray);
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.deal .content p {
+    color: var(--green);
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 1rem 0;
 }
 
 
