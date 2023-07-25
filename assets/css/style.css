@@ -391,6 +391,47 @@ body {
     animation-name: bounce;
 }
 
+.arrivals .arrivals-slider .box {
+    align-items: center;
+    border: var(--border);
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0;
+    padding: 2rem 1rem;
+}
+
+.arrivals .arrivals-slider .box:hover {
+    border: var(--border-hover);
+}
+
+.arrivals .arrivals-slider .box .image img {
+    height: 15rem;
+}
+
+.arrivals .arrivals-slider .box .content h3 {
+    color: var(--black);
+    font-size: 2rem;
+}
+
+.arrivals .arrivals-slider .box .content .price {
+    color: var(--black);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.arrivals .arrivals-slider .box .content .price span{
+    color: var(--light-gray);
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+    text-decoration: line-through;
+}
+
+.arrivals .arrivals-slider .box .content .stars i {
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+
 @keyframes bounce {
     0% {transform: translateY(0)}
     100% {transform: translateY(6rem)}
