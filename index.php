@@ -28,6 +28,9 @@
     include_once 'views/arrivals.php';
 
     include_once 'views/deals.php';
+
+    include_once 'views/reviews.php';
+
      ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
