@@ -662,6 +662,56 @@ body {
     padding: 1rem 0;
 }
 
+.footer .box-container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.footer .box-container .box h3{
+    color: var(--dark-gray);
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+.footer .box-container a {
+    color: var(--dark-gray);
+    display: block;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a i{
+    color: var(--green);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-left: .5rem;
+}
+
+.footer .share {
+    padding: 1rem 0;
+    margin-bottom: 4rem;
+}
+
+.footer .share a {
+    background: var(--green);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    height: 5rem;
+    line-height: 5rem;
+    margin: 0 .3rem;
+    text-align: center;
+    width: 5rem;
+}
+
+.footer .share a:hover {
+    background: var(--dark-gray);
+}
+
 @media (max-width: 991px) {
 
     html {

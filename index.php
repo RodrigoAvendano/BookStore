@@ -14,8 +14,6 @@
     include_once 'views/header.php';
 
     include_once 'views/home.php';
-    
-    include_once 'views/footer.php';
      
     include_once 'views/login.php';
 
@@ -32,6 +30,8 @@
     include_once 'views/reviews.php';
 
     include_once 'views/blog.php';
+
+    include_once 'views/footer.php';
 
      ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
