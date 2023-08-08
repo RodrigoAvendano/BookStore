@@ -693,7 +693,9 @@ body {
 
 .footer .share {
     padding: 1rem 0;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 .footer .share a {
